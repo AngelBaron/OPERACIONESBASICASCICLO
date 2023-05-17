@@ -45,6 +45,7 @@ Scanner entrada = new Scanner(System.in);
         
     }}
     public void suma(){
+        System.out.println("OPCION SUMA");
         if(this.i==0){
             System.out.println("OPCION SUMA TIPO x+y");
             System.out.println("Dame el primer numero");
@@ -63,6 +64,7 @@ Scanner entrada = new Scanner(System.in);
         
     }
     public void resta(){
+        System.out.println("OPCION RESTA");
         if(this.i==0){
             System.out.println("OPCION SUMA TIPO x-y");
             System.out.println("Dame el primer numero");
@@ -81,6 +83,7 @@ Scanner entrada = new Scanner(System.in);
         
     }
     public void multiplicacion(){
+        System.out.println("OPCION MULTIPLICACION");
         if(this.i==0){
             System.out.println("OPCION SUMA TIPO x*y");
             System.out.println("Dame el primer numero");
@@ -99,6 +102,7 @@ Scanner entrada = new Scanner(System.in);
         
     }
     public void division(){
+        System.out.println("OPCION DIVISION");
         if(this.i==0){
             System.out.println("OPCION SUMA TIPO x/y");
             System.out.println("Dame el primer numero");
